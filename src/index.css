@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-color: #0fb8e0;
+  --primary-dark: #0d2154;
+}
+
+span {
+  color: var(--primary-color);
+}
+
+.backgroundHero {
+  background: url("./assets/cyber-bg.png") no-repeat center center/cover;
+}
+
+@layer base {
+  .primaryColor {
+    @apply text-[#0fb8e0];
+  }
+  .primaryDark {
+    @apply text-[#0d2154];
+  }
+  button {
+    @apply py-2 px-5 bg-[#0fb8e0] hover:bg-[#1bd5ff] text-white font-semibold rounded-md;
+  }
+}
