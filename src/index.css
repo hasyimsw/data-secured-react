@@ -19,6 +19,14 @@ span {
   background: url("./assets/data-bg.png") no-repeat center center/cover;
 }
 
+.backgroundCloud {
+  background: url("./assets/cloud-bg.png") no-repeat center center/cover;
+}
+
+.backgroundFooter {
+  background: url("./assets/footer-bg.jpg") no-repeat center center/cover;
+}
+
 @layer base {
   .primaryColor {
     @apply text-[#0fb8e0];

@@ -13,7 +13,7 @@ const Navbar = () => {
       <div className="max-w-[1240px] h-20 mx-auto px-4 flex items-center justify-between">
         <div className="flex items-center">
           <SiDatabricks className="mt-2 mr-3 primaryColor" size={44} />
-          <h1 className="text-5xl font-bold text-white">Secured</h1>
+          <h1 className="text-5xl font-bold text-white">Secured.</h1>
         </div>
         <ul className="hidden md:flex items-center font-bold">
           <li className="p-4 text-white/80 hover:text-white">Home</li>
