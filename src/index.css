@@ -15,6 +15,10 @@ span {
   background: url("./assets/cyber-bg.png") no-repeat center center/cover;
 }
 
+.backgroundData {
+  background: url("./assets/data-bg.png") no-repeat center center/cover;
+}
+
 @layer base {
   .primaryColor {
     @apply text-[#0fb8e0];
