@@ -2,7 +2,7 @@ import React from 'react'
 
 const Cloud = () => {
   return (
-    <div name='cloud' className='w-full h-[100vh] px-4 mx-auto relative backgroundCloud'>
+    <div className='w-full h-[100vh] px-4 mx-auto relative backgroundCloud'>
         <div className='max-w-full w-full h-full'>
             <div className='absolute lg:left-[10%] top-[40%]'>
                 <h2 className='text-4xl font-bold text-white'><span>Cloud</span> Recovery</h2>

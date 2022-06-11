@@ -53,11 +53,21 @@ const Footer = () => {
                 <input className='rounded-md py-[6px] pl-2 pr-16 border-[1px] border-slate-400 shadow-md' placeholder='Enter your email' type="email" />
             </div>
             <div className='flex max-w-7xl mx-auto space-x-2 pb-4'>
-                <FiFacebook size={24} />
-                <FiGithub size={24} />
-                <FiInstagram size={24} />
-                <FiLinkedin size={24} />
-                <FiDribbble size={24} />
+                <div className='p-2 text-white rounded-md bg-[#0d2154]'>
+                    <FiFacebook size={24} />
+                </div>
+                <div className='p-2 text-white rounded-md bg-[#0d2154]'>
+                    <FiGithub size={24} />
+                </div>
+                <div className='p-2 text-white rounded-md bg-[#0d2154]'>
+                    <FiInstagram size={24} />
+                </div>
+                <div className='p-2 text-white rounded-md bg-[#0d2154]'>
+                    <FiLinkedin size={24} />
+                </div>
+                <div className='p-2 text-white rounded-md bg-[#0d2154]'>
+                    <FiDribbble size={24} />
+                </div>
             </div>
             <div>
                 <p className="text-center font-semibold text-slate-800 text-sm pt-4 pb-2">
